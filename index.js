@@ -14,7 +14,8 @@ var visualization = d3plus.viz()
 
 
 d3.json
-("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data){
+("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function([{"year": 1991, "name":"alpha", "value": 15},
+{"year": 1992, "name":"alpha", "value": 20},]){
 var  visualization = d3plus.viz()
   .container("#viz2")
   .data([{"year": 1991, "name":"alpha", "value": 15},
