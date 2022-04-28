@@ -11,6 +11,7 @@ var visualization = d3plus.viz()
   .x("year")
   .y("value")
   .draw()
+
 var data = [{"year": 1991, "name":"alpha", "value": 15},
 {"year": 1992, "name":"alpha", "value": 20},];
 
@@ -25,9 +26,9 @@ var  visualization = d3plus.viz()
   .y("value")
   .axis({"ticks": "false"})
   .draw();
-//});
+});
 
-var data 3 = var data = [
+var data3 = [
   {"year": 1991, "name":"alpha", "value": 15},
   {"year": 1992, "name":"alpha", "value": 34},
   {"year": 1991, "name":"alpha2", "value": 17},
