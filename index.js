@@ -11,21 +11,20 @@ var visualization = d3plus.viz()
   .x("year")
   .y("value")
   .draw()
+var data = [{"year": 1991, "name":"alpha", "value": 15},
+{"year": 1992, "name":"alpha", "value": 20},];
 
-
-//d3.json
-//("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function([{"year": 1991, "name":"alpha", "value": 15},
-//{"year": 1992, "name":"alpha", "value": 20},]){
-//var  visualization = d3plus.viz()
-  //.container("#viz2")
-  //.data([{"year": 1991, "name":"alpha", "value": 15},
-    //{"year": 1992, "name":"alpha", "value": 20},])
-  //.type("bar")
-  //.id("name")
-  //.x("year")
-  //.y("value")
-  //.axis({"ticks": "false"})
-  //.draw();
+d3.json
+("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data){
+var  visualization = d3plus.viz()
+  .container("#viz2")
+  .data([data)
+  .type("bar")
+  .id("name")
+  .x("year")
+  .y("value")
+  .axis({"ticks": "false"})
+  .draw();
 //});
 
 var data 3 = var data = [
