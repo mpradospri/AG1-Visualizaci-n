@@ -13,7 +13,7 @@ var visualization = d3plus.viz()
   .draw()
 
 
-var data = [{"year": 1991, "name":"alpha", "value": 15},
+data = [{"year": 1991, "name":"alpha", "value": 15},
 {"year": 1992, "name":"alpha", "value": 20},];
 
 d3.json
